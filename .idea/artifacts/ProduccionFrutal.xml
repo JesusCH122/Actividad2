@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="ProduccionFrutal">
-    <output-path>$PROJECT_DIR$/out/artifacts/ProduccionFrutal</output-path>
-    <root id="archive" name="ProduccionFrutal.jar">
-      <element id="module-output" name="Produccion Frutal" />
-    </root>
-  </artifact>
-</component>

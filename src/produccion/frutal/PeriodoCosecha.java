@@ -10,7 +10,15 @@ PeriodoCosecha {
             this.estimadoTonPorHectarea = estimadoTonPorHectarea;
         }
 
-        public String getNombrePeriodo() {
+    @Override
+    public String toString() {
+        return "PeriodoCosecha{" +
+                "nombrePeriodo='" + nombrePeriodo + '\'' +
+                ", estimadoTonPorHectarea=" + estimadoTonPorHectarea +
+                '}';
+    }
+
+    public String getNombrePeriodo() {
             return nombrePeriodo;
         }
 

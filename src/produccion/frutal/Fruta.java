@@ -63,6 +63,17 @@ public class Fruta {
         this.hectareas = hectareas;
     }
 
+    @Override
+    public String toString() {
+        return "Fruta{" +
+                "nombre='" + nombre + '\'' +
+                ", hectareas=" + hectareas +
+                ", costoPorTonelada=" + costoPorTonelada +
+                ", precioPorTonelada=" + precioPorTonelada +
+                ", periodos=" + periodos +
+                '}';
+    }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }

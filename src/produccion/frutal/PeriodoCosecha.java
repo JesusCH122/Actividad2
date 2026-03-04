@@ -1,6 +1,7 @@
 package produccion.frutal;
 
-public class PeriodoCosecha {
+public class
+PeriodoCosecha {
         private String nombrePeriodo;
         private float estimadoTonPorHectarea;
 
@@ -13,8 +14,16 @@ public class PeriodoCosecha {
             return nombrePeriodo;
         }
 
-        public float getEstimadoTonPorHectarea() {
+    public void setNombrePeriodo(String nombrePeriodo) {
+        this.nombrePeriodo = nombrePeriodo;
+    }
+
+    public float getEstimadoTonPorHectarea() {
             return estimadoTonPorHectarea;
         }
+
+    public void setEstimadoTonPorHectarea(float estimadoTonPorHectarea) {
+        this.estimadoTonPorHectarea = estimadoTonPorHectarea;
     }
+}
 

@@ -59,12 +59,37 @@ public class Fruta {
         return periodos.get(indice);
     }
 
+    public void setHectareas(float hectareas) {
+        this.hectareas = hectareas;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public float getCostoPorTonelada() {
+        return costoPorTonelada;
+    }
+
+    public void setCostoPorTonelada(float costoPorTonelada) {
+        this.costoPorTonelada = costoPorTonelada;
+    }
+
+    public float getPrecioPorTonelada() {
+        return precioPorTonelada;
+    }
+
+    public void setPrecioPorTonelada(float precioPorTonelada) {
+        this.precioPorTonelada = precioPorTonelada;
+    }
+
     public int cantidadPeriodos() {
         return periodos.size();
     }
 
-    // getters mínimos
+
     public String getNombre() { return nombre; }
     public float getHectareas() { return hectareas; }
+
 
 }
